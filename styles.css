@@ -1,1 +1,13 @@
-/*  your css code here. If applicable */
+.Gallery{
+	width:700px;
+	height:25vh;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+img{
+	max-width:25vw;
+	margin:10px;
+	border:3px solid #000;
+	box-shadow:3px 3px 8px 0px rgba(0,0,0,0.3);
+}
